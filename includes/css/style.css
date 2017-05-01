@@ -1,0 +1,206 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+body
+{
+	margin: 0;
+}
+
+#profileContainer
+{
+	margin: 150px 150px;	
+}
+
+
+#topRow
+{
+	background-color: #82E0AA;
+	height: 200px;
+	margin-left: 0px;
+	margin-right: 0px;
+	text-align: center;
+}
+
+#secondRow
+{
+	text-align: center;
+}
+
+#aboutMe
+{
+	/*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
+	/*border: 1px solid blue;*/
+	text-align: center;
+}
+
+#aboutMe p
+{
+	padding: 5px 50px;
+}
+
+
+#mySkills
+{
+	/*border: 1px solid red;*/
+}
+
+#mySkillsHeading
+{
+	text-align: center;
+}
+
+#mySkills .col-4
+{
+
+}
+
+#mySkills img
+{
+	margin-top: : 20px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+	height: 120px;
+	width: 140px;
+}
+
+#educationDetails
+{
+	/*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
+	/*border: 1px solid blue;*/
+}
+
+
+#educationDetails h3
+{
+	text-align: center;
+}
+
+.cardHeading
+{
+	padding: 10px 80px;
+}
+
+.cardTitle
+{
+	text-align: left;
+}
+
+.cardList li
+{
+	padding-left: 40px;
+	list-style-type: none;
+	padding-bottom: 7px;
+}
+
+.cardList li a
+{
+	text-decoration: none;
+}
+
+#contactsCard
+{
+	/*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
+	border: 1px solid green;
+	padding-bottom: 15px;
+}
+
+#personalInfoCard
+{
+	/*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
+	border: 1px solid green;
+	padding-bottom: 15px;
+}
+
+.personalInfoList
+{
+	padding-left: 80px;
+}
+
+#buttonLinks
+{
+	padding-left: 50px;
+	padding-top: 30px;
+}
+
+
+
+/*----------------------------------------
+	Header
+------------------------------------------*/
+
+.container
+{
+	margin: 0 auto;
+}
+
+.headerHeading
+{
+	margin: 10px;  
+
+}
+
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+	
+	
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+ 	
+	
+
