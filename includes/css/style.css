@@ -16,124 +16,8 @@ Notes:	 Hand coded for Udemy.com
 body
 {
 	margin: 0;
+	font-family: Georgia;
 }
-
-#profileContainer
-{
-	margin: 150px 150px;	
-}
-
-
-#topRow
-{
-	background-color: #82E0AA;
-	height: 200px;
-	margin-left: 0px;
-	margin-right: 0px;
-	text-align: center;
-}
-
-#secondRow
-{
-	text-align: center;
-}
-
-#aboutMe
-{
-	/*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
-	/*border: 1px solid blue;*/
-	text-align: center;
-}
-
-#aboutMe p
-{
-	padding: 5px 50px;
-}
-
-
-#mySkills
-{
-	/*border: 1px solid red;*/
-}
-
-#mySkillsHeading
-{
-	text-align: center;
-}
-
-#mySkills .col-4
-{
-
-}
-
-#mySkills img
-{
-	margin-top: : 20px;
-	margin-bottom: 20px;
-	margin-left: 50px;
-	height: 120px;
-	width: 140px;
-}
-
-#educationDetails
-{
-	/*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
-	/*border: 1px solid blue;*/
-}
-
-
-#educationDetails h3
-{
-	text-align: center;
-}
-
-.cardHeading
-{
-	padding: 10px 80px;
-}
-
-.cardTitle
-{
-	text-align: left;
-}
-
-.cardList li
-{
-	padding-left: 40px;
-	list-style-type: none;
-	padding-bottom: 7px;
-}
-
-.cardList li a
-{
-	text-decoration: none;
-}
-
-#contactsCard
-{
-	/*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
-	border: 1px solid green;
-	padding-bottom: 15px;
-}
-
-#personalInfoCard
-{
-	/*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
-	border: 1px solid green;
-	padding-bottom: 15px;
-}
-
-.personalInfoList
-{
-	padding-left: 80px;
-}
-
-#buttonLinks
-{
-	padding-left: 50px;
-	padding-top: 30px;
-}
-
 
 
 /*----------------------------------------
@@ -152,36 +36,218 @@ body
 }
 
 
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+.navbar
+{
+	background-color: #EAEDED;
+}
+
 
 
 /* --------------------------------------
    Typography
    -------------------------------------- */
 
+#profileContainer
+{
+	margin: 150px 150px;
+	padding: 0;	
+}
 
 
+#topRow
+{
+	background-color: #82E0AA;
+	height: 200px;
+	margin-left: 0px;
+	margin-right: 0px;
+	text-align: center;
+}
 
-/* --------------------------------------
-   Navbar
-   -------------------------------------- */
+#secondRow
+{
+	text-align: center;
+}
+
+#secondRow h4
+{
+	font-style: italic;
+	color: #95A5A6;
+}
+
+#aboutMe
+{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	margin-top: 30px;
+	text-align: center;
+}
+
+#about_me
+{
+	margin-top: 30px;
+}
+
+#mySkills
+{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	margin-top: 40px;
+}
 
 
-   
-   
-/* --------------------------------------
-   Carousel
-   -------------------------------------- */
+#mySkills h3
+{
+	text-align: center;
+}
+
+#mySkillsInfo
+{
+	margin-top: 15px;
+}
+
+#educationDetails
+{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	margin-top: 40px;
+}
 
 
+#educationDetails h3
+{
+	text-align: center;
+}
 
+#educationDetailsInfo
+{
+	
+	padding-left: 40px;
+	padding-bottom: 20px;
+}
 
+#details
+{
+	margin-top: 40px;
+}
+
+#contactDetails
+{
+	margin: 0;
+	padding-left: 0px;
+	padding-right: -10px;
+}
+#personalDetails
+{
+	margin: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.cardHeading
+{
+	padding: 5px 50px;
+}
+
+.icon_list
+{
+	margin-left: 30px;
+}
+
+#contactsInfo
+{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	padding-bottom: 15px;
+
+}
+
+#personalInfo
+{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	padding-bottom: 15px;
+}
 
 
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
 
+#mySkillsInfo img
+{
+	margin-top: : 20px;
+	margin-bottom: 30px;
+	margin-left: 20px;/*40*/
+	height: 120px;
+	width: 120px;
+}
 
+.contact_list_item
+{
+	padding-left: 30px;
+	list-style-type: none;
+	padding-bottom: 7px;
+}
+
+.contact_list_link
+{
+	text-decoration: none;
+	color: grey;
+}
+
+.contact_list_link:hover
+{
+	color: black;
+	text-decoration: none;
+}
+.icon_list_item
+{
+	padding-right: 5px;
+	list-style-type: none;
+	display: inline;
+	font-size: 27px;
+}
+
+.icon_list_item a
+{
+	color: grey;
+}
+
+.icon_list_item a:hover
+{
+	color: black
+}
+.personalInfoList
+{
+	margin-left: 50px;
+}
+
+.button_list
+{
+	padding-left: 0px;
+	padding-top: 0px;
+	margin-top: 30px;
+	margin-left: 50px;
+		
+	/*margin-right: 80px;*/
+}
+
+.button_list_link
+{
+	list-style-type: none;
+	display: inline;
+	margin-right: 20px;
+}
+
+.button_list_link a:hover
+{
+	background-color: black;
+	border: none;
+}
+
+.table_data
+{
+	padding: 13px;	
+}
 
 
 /* --------------------------------------
@@ -192,15 +258,123 @@ body
 
 
 /* Landscape phone to portrait tablet */
+@media(max-width: 480px){
+
+		#profileContainer{
+			margin: 100px 50px;
+			
+		}
+
+		#profile_image{
+			width:100px;
+			height:100px;
+		}
+
+		#topRow{
+			height:100px;
+		}
+
+		#about_me{
+			padding: 0px;
+		}
+
+		#contactDetails{
+			width:100%;
+		}
+
+		.cardHeading
+		{
+			padding-top: 5px;
+			padding-left: 20px;
+		}
+
+		.contactList{
+			padding-left: 0px;
+		}
+
+		.contact_list_item
+		{
+			padding-left: 40px;
+		}
+
+		.icon_list
+		{
+    		padding-left: 0px;
+    		margin-left: 40px;
+		}
+
+		#personalDetails{
+			width:100%;
+			margin-top: 40px;
+			/*padding-left: 10px;*/
+		}
+
+		.personalInfoList{
+			margin-left: 10px;
+    		padding-left: 0px;
+    		font-size: 10pt;
+		}
+
+		/*.btn
+		{
+			display: block;
+			padding: 8px 15px;
+		}*/
+
+		.button_list
+		{
+			padding: 0;
+			margin-left: 30px;
+		}
+		.button_list_link{
+			margin-bottom: 10px;
+		}
+
+		.linkedIn{
+			margin-top: 10px;
+		}
+
+}
 @media (max-width: 768px) {
 	
-	
-	
+	#profileContainer
+	{
+		margin: 100px 50px;
+	}
+
+	#about_me
+	{
+		padding: 0px;
+	}
+	.personalInfoList{
+		margin-left: 10px;
+    	padding-left: 0px;
+    	font-size: 9px;
+	}
+	#contactDetails
+	{
+		margin: 0;
+		padding-left: 0px;
+		padding-right: -10px;
+	}
+
+	.button_list
+	{
+		padding: 0;
+		margin-left: 30px;
+	}	
+	.button_list_link{
+			margin-bottom: 10px;
+	}
+}
 
 
 /* Large desktop */
 @media (min-width: 1200px) {
-
- 	
+		
+	#profileContainer{
+			margin: 100px 
+		}
+ }
 	
 

@@ -4,10 +4,14 @@
 	<title>My Profile Page</title>
 
 	<meta name="description" content="Learn how to code your first responsive website with the new Twitter Bootstrap 3.">
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 		
 	<!-- Mobile viewport optimized -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		
+	<meta charset="utf-8">
+
 	<!-- Bootstrap CSS -->
 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
@@ -34,7 +38,7 @@
 			<div class="row" id="topRow">
 				<div class="col-12" id="firstTopRow">
 					
-					<img src="images/profileImage.jpg" alt="Profile Image" class="img-circle">
+					<img src="images/profileImage.jpg" alt="Profile Image" class="img-circle" id="profile_image">
 
 				</div><!--  col-12 end  -->
 
@@ -50,113 +54,143 @@
 			<!--  secondRow end  -->
 
 
-
-			<hr>
 			<div class="row" id="aboutMe">
 				<div class="col-12">
 					<h3>About me</h3>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					<hr>
+					<p id="about_me">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
 				</div>
 			</div>
-			<!--  aboutMe end  -->
-
-			<hr>
-
-			<div class="row" id="mySkillsHeading">
-				<div class="col-12">
-					<h3>My Skills</h3>
-				</div>	
-			</div>
-			<!--  mySkillsHeading end  -->
+			<!--  aboutMe div end  -->
 
 
 			<div class="row" id="mySkills">
-				<div class="col-2">
-					<img src="images/htmlIcon.png">
-				</div><!--  col-4 end -->
+				<div class="col-12">
+					<h3>My Skills</h3>
+					<hr>
+				</div><!-- col-12 end -->
 
-				<div class="col-2">
-					<img src="images/cssIcon.jpg">
-				</div><!--  col-4 end -->
+				<div class="col-12" id="mySkillsInfo">
+					<div class="col-lg-2 col-sm-12">
+						<img src="images/htmlIcon.png" alt="HTML Icon">
+					</div><!--  col-4 end -->
 
-				<div class="col-2">
-					<img src="images/bootstrapIcon.jpg">
-				</div><!--  col-4 end -->
+					<div class="col-lg-2 col-sm-12">
+						<img src="images/cssIcon.jpg" alt="CSS Icon">
+					</div><!--  col-4 end -->
+
+					<div class="col-lg-2 col-sm-12">
+						<img src="images/bootstrapIcon.jpg" alt="Bootstrap Icon">
+					</div><!--  col-4 end -->
 
 
-				<div class="col-2">
-					<img src="images/javaIcon.jpg">
-				</div><!--  col-4 end -->
+					<div class="col-lg-2 col-sm-12">
+						<img src="images/javaIcon.jpg" alt="Java Icon">
+					</div><!--  col-4 end -->
 
-				<div class="col-2">
-					<img src="images/SQLIcon.png">
-				</div><!--  col-4 end -->
+					<div class="col-lg-2 col-sm-12">
+						<img src="images/SQLIcon.png" alt="SQL Icon">
+					</div><!--  col-4 end -->
 
-			</div>
-			<!-- myskills end  -->
+				</div>
+				<!-- mySkillsInfo end  -->
 
-			<hr>
+			</div><!-- mySkills end -->
+
 
 			<div class="row" id="educationDetails">
 
 				<div class="col-12">
 					<h3>Education Details</h3>
-
-
-						<h4>Punjab Technical University, Jalandhar</h4>
-						<p>Bachelors of Engineering and Technology in Electronics and Communication - June 2016</p>
-						<br>
-						<h4>Central Board Of Secondary Education</h4>
-						<p>Class 12th - March 2012</p>
-
-					
-
+					<hr>
 				</div><!--  col-12 end -->
+
+				<div class="col-12" id="educationDetailsInfo">
+					<h4>Punjab Technical University, Jalandhar</h4>
+					<p>Bachelors of Engineering and Technology in Electronics and Communication - June 2016</p>
+					<br>
+					<h4>Central Board Of Secondary Education</h4>
+					<p>Class 12th - March 2012</p>
+
+				</div><!-- col-12 end  -->
 
 			</div><!--  educationDetails end  -->
 
-			<hr>
 
-			<div class="row" id="detials">
-				<div class="col-6">
-					<div class="card" id="contactsCard">
+			<div class="row" id="details">
+				<div class="col-6" id="contactDetails">
+					<div class="card" id="contactsInfo">
 						<div class="cardHeading">
 							<h3 class="cardTitle">Contact Details</h3>
+							<hr>
 						</div><!-- card-heading end -->
 
-						<ul class="cardList">
-							<li><a href="#">+91-7896-543-123</a></li>
-							<li><a href="#">randeep@gmail.com</a></li>
-							<li><a href="#">randeep59@yahoo.com</a></li>
+						<ul class="contactList">
+							<li class="contact_list_item"><a href="#" class="contact_list_link">
+								<i class="fa fa-mobile" aria-hidden="true"></i>
+							 +91-7896-543-123</a></li>
+							 <li class="contact_list_item"><a href="#" class="contact_list_link">
+							 	<i class="fa fa-envelope-o" aria-hidden="true"></i>
+							  randeep@gmail.com</a></li>
+						</ul><!-- cardList end -->
+						
+						<ul class="icon_list">
+							<li class="icon_list_item">
+								<a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+							</li>
+							<li class="icon_list_item">
+								<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+							</li>
+							<li class="icon_list_item">
+								<a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a>
+							</li>
 						</ul>
 
+						<ul class="button_list">
+							<li class="button_list_link">
+								<a href="#" target="_blank" class="btn btn-success gitHub">My GitHub profile
+								</a>
+							</li>
+
+							<li class="button_list_link">
+								<a href="#" target="_blank" class="btn btn-primary linkedIn" >My Linkedin profile</a>
+							</li>
+						</ul><!-- button_list end  -->	
+						
 					</div><!-- card end  -->
 				</div><!-- col-6 end  -->
 
-				<div class="col-6">
-					<div class="card" id="personalInfoCard">
+				<div class="col-6" id="personalDetails">
+					<div class="card" id="personalInfo">
 						<div class="cardHeading">
 							<h3 class="cardTitle">Personal Information</h3>
+							<hr>
 						</div><!-- card-heading end -->
 
 						<div class="personalInfoList">
-							<table cellspacing="5" cellpadding="5">	
+							<table>	
 								<tr>
-									<td>Date of Birth</td>
-									<td>:</td>
-									<td>18-10-1994</td>
+									<td class="table_data">Date of Birth</td>
+									<td class="table_data"> : </td>
+									<td class="table_data"> 18-10-1994</td>
 								</tr>
 
 								<tr>
-									<td>Gender</td>
-									<td>:</td>
-									<td>Female</td>
+									<td class="table_data">Gender</td>
+									<td class="table_data"> : </td>
+									<td class="table_data"> Female</td>
 								</tr>
 
 								<tr>
-									<td>Marital Status</td>
-									<td>:</td>
-									<td>Single</td>
+									<td class="table_data">Blood Group</td>
+									<td class="table_data"> : </td>
+									<td class="table_data"> B+</td>
+								</tr>
+
+								<tr>
+									<td class="table_data">Address</td>
+									<td class="table_data">:</td>
+									<td class="table_data"> Electronic city phase-1, Bangalore,Karnataka</td>
 								</tr>
 							</table>
 						</div><!--  personalInfoList end  -->
@@ -167,15 +201,6 @@
 			</div>
 			<!--  details row end  -->
 
-
-			<div class="row" id="buttonLinks">
-				<div class="col-12">
-					<a href="#" target="_blank" class="btn btn-success" type="button">Go to my GitHub profile</a>
-
-					<a href="#" target="_blank" class="btn btn-primary" type="button">Go to my Linkedin profile</a>
-				</div><!-- col-12 end  -->
-			</div><!-- buttonLinks end --> 
-
 		</div>
 		<!--  profileConatiner end  -->
 
@@ -184,5 +209,25 @@
 	</div>
 	<!-- main div end  -->
 
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+	
+
+
 </body>
 </html>
+
+
+
